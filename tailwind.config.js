@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         'clicker' : ['"Clicker Script"', 'sans-serif'],
         'work' : ['"Work Sans"', 'san-serif'],
+        'clash' : ['"Clash Display"', 'san-serif'],
       },
       colors: {
         'back': '#F6F4ED',
