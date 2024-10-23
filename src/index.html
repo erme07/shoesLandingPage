@@ -6,9 +6,9 @@
     <link href="./output.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="relative bg-back font-work">
-    <div class="w-[600px] h-[600px] rounded-full bg-secondary radial-boxshadow absolute top-[-300px] left-[-300px] opacity-15 -z-10"></div>
-    <header class="">
+<body class="bg-back font-work overflow-x-hidden">
+    <div class="w-[600px] h-[600px] rounded-full bg-secondary radial-shadow-secondary absolute top-[-300px] left-[-300px] opacity-15 -z-10"></div>
+    <header class="relative z-50">
         <div class="container">
             <nav class="flex justify-between items-center h-[80px]">
                 <h1 class="font-clicker text-secondary text-4xl">
@@ -29,11 +29,118 @@
             </nav>
         </div>
     </header>
-    <main class="bg-slate-400">
+    <main class="">
+        <section class="mt-[-80px] mb-10">
+            <div class="container min-h-screen pt-[80px] flex justify-between items-center relative">
+                <div class="w-1/2 flex flex-col items-start gap-7">
+                    <h2 class="font-clash font-semibold text-[70px] text-[#1e1e1e] leading-none">Comfort <br> awaits <span class="text-secondary">everyday</span></h2>
+                    <p class="text-xl">Production and sale of the best shoe of various types for tour travel lovers. Feel the tightness and comfort of these items.</p>
+                    <button class="font-bold py-3.5 px-6 bg-primary hover:bg-secondary hover:text-back transition-colors">Open Catalog</button>
+                </div>
+                <div class="bg-primary/15 rounded-full w-[32vw] max-w-[480px] aspect-square radial-shadow-primary"></div>
+                <img src="../assets/img/hero.png" alt="" class="absolute w-[60vw] right-[-20%] bottom-0">
+            </div>
+        </section>
+        <section class="mb-10">
+            <div class="container min-h-screen flex justify-between items-center relative">
+                <div class="w-1/2 flex flex-col items-start gap-5">
+                    <h2 class="font-clash font-semibold text-[46px] text-[#1e1e1e] leading-none">Know about best <span class="text-secondary">feature in shoes.</span></h2>
+                    <div class="flex items-center gap-5">
+                        <button class=" bg-primary w-[80px] h-[80px] flex items-center justify-center shrink-0">
+                            <img src="../assets/icons/award.png" alt="">
+                        </button>
+                        <div>
+                            <h3 class="font-semibold text-[26px]">Best Quality Shoes</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <button class=" bg-primary w-[80px] h-[80px] flex items-center justify-center shrink-0">
+                            <img src="../assets/icons/fast_time.png" alt="">
+                        </button>
+                        <div>
+                            <h3 class="font-semibold text-[26px]">Long Lasting Shoes</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <button class=" bg-primary w-[80px] h-[80px] flex items-center justify-center shrink-0">
+                            <img src="../assets/icons/price_tag.png" alt="">
+                        </button>
+                        <div>
+                            <h3 class="font-semibold text-[26px]">Best Price Range</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="relative mr-4">
+                    <div class="bg-secondary/15 mt-[-30px] rounded-full w-[480px] aspect-square bg-gradient-to-r from-secondary to-primary"></div>
+                    <img src="../assets/img/pngwing 1.png" alt="" class="absolute top-[30px] right-0">
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <div class="container min-h-screen flex flex-col items-center gap-7">
+                <h2 class="font-clash text-[46px]">A <span class="text-secondary">top-selling</span> product</h2>
+                <p class="block max-w-[980px] text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <div class="w-full mt-28 flex justify-between">
+                    <div class="bg-[#FFDBDF] w-[280px] h-[210px] flex flex-col items-center justify-between group pb-5">
+                        <img src="../assets/img/pngwing 2.png" alt="" class="-translate-y-1/2 -rotate-[30deg] group-hover:rotate-0 transition-all">
+                        <div class="flex flex-col items-center gap-2">
+                            <h3 class="text-[20px]">Nike Shoes Air Max</h3>
+                            <p class="font-semibold">Price $150</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#E0E3E5] w-[280px] h-[210px] flex flex-col items-center justify-between group pb-5">
+                        <img src="../assets/img/pngwing 3.png" alt="" class="-translate-y-1/2 -rotate-[30deg] group-hover:rotate-0 transition-all">
+                        <div class="flex flex-col items-center gap-2">
+                            <h3 class="text-[20px]">Nike Shoes Air Max</h3>
+                            <p class="font-semibold">Price $150</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#DBEFFF] w-[280px] h-[210px] flex flex-col items-center justify-between group pb-5">
+                        <img src="../assets/img/pngwing 4.png" alt="" class="-translate-y-1/2 -rotate-[30deg] group-hover:rotate-0 transition-all">
+                        <div class="flex flex-col items-center gap-2">
+                            <h3 class="text-[20px]">Nike Shoes Air Max</h3>
+                            <p class="font-semibold">Price $150</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#FFE8DB] w-[280px] h-[210px] flex flex-col items-center justify-between group pb-5">
+                        <img src="../assets/img/pngwing 5.png" alt="" class="-translate-y-1/2 -rotate-[30deg] group-hover:rotate-0 transition-all">
+                        <div class="flex flex-col items-center gap-2">
+                            <h3 class="text-[20px]">Nike Shoes Air Max</h3>
+                            <p class="font-semibold">Price $150</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="min-h-screen pt-[100px] mb-10">
+            <div class="bg-gradient-to-r from-secondary to-primary text-white">
+                <div class="container flex justify-end items-center relative py-24">
+                        <img src="../assets/img/5 1.png" alt="" class="w-[45%] absolute bottom-0 left-0">
+                        <div class="w-1/2 flex flex-col items-start gap-5">
+                            <h2 class="font-clash font-medium text-[46px] leading-none">We provide <br>high quality footwear</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
         <section class="h-[320px] bg-gradient-to-r from-secondary to-primary">
-            <div class="container h-full flex flex-col justify-center items-center">
-                <h2>Let us send you offering</h2>
-                <p>s sfsdfsd fsd fs df sdf sd fs df sdf dsf sdf</p>
+            <div class="container h-full flex flex-col justify-center items-center gap-8">
+                <h2 class="font-clash text-5xl text-white">Let us send you offering</h2>
+                <form action="" class="flex h-[75px]">
+                    <input type="email" class="w-[600px] px-6 text-base bg-white/20 text-[#1e1e1e] placeholder:text-gray-800 focus:outline-none focus:ring focus:ring-violet-300 ring-inset" placeholder="Input your email address in here">
+                    <button type="submit" class="text-secondary w-[80px] flex justify-center items-center cursor-pointer bg-white hover:text-white hover:bg-secondary">
+                        <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 15.3298H0.666656V11.9965H14V0.329834L27.3333 13.6632L14 26.9965V15.3298Z" fill="currentcolor"/>
+                            </svg>
+                    </button>
+                </form>
             </div>
         </section>
     </main>
