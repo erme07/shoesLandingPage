@@ -15,7 +15,7 @@ module.exports = {
       },
     },
     container: {
-      center: true, // Centra el contenedor
+      center: true,
       padding: {
         DEFAULT: '10px',
         lg: '0px'
