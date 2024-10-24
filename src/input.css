@@ -40,4 +40,11 @@
     .radial-shadow-primary{
         box-shadow: 0px 0px 60px 60px rgb(253, 196, 0,.15);
     }
+    .quote{
+        content:url('../assets/icons/quote.png');
+        position:absolute;
+        display: block;
+        top: -20%;
+        left: 35px;
+    }
 }
