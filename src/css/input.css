@@ -4,31 +4,31 @@
 
 @font-face {
     font-family: 'Clicker Script';
-    src: url('../assets/fonts/ClickerScript.woff2') format('woff2'),
-            url('../assets/fonts/ClickerScript.woff') format('woff');
+    src: url('../../assets/fonts/ClickerScript.woff2') format('woff2'),
+            url('../../assets/fonts/ClickerScript.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Clash Display';
-    src: url('../assets/fonts/ClashDisplay-Medium.woff2') format('woff2'),
-            url('../assets/fonts/ClashDisplay-Medium.woff') format('woff');
+    src: url('../../assets/fonts/ClashDisplay-Medium.woff2') format('woff2'),
+            url('../../assets/fonts/ClashDisplay-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Clash Display';
-    src: url('../assets/fonts/ClashDisplay-Semibold.woff2') format('woff2'),
-            url('../assets/fonts/ClashDisplay-Semibold.woff') format('woff');
+    src: url('../../assets/fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+            url('../../assets/fonts/ClashDisplay-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Work Sans';
-    src: url('../assets/fonts/WorkSans-VariableFont.woff2') format('woff2');
+    src: url('../../assets/fonts/WorkSans-VariableFont.woff2') format('woff2');
     font-weight: 100 900;
     font-style: normal;
 }
@@ -41,7 +41,7 @@
         box-shadow: 0px 0px 60px 60px rgb(253, 196, 0,.15);
     }
     .quote{
-        content:url('../assets/icons/quote.webp');
+        content:url('../../assets/icons/quote.webp');
         position:absolute;
         display: block;
         top: 0;
