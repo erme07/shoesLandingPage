@@ -1,0 +1,85 @@
+
+.navbar{
+    
+    backdrop-filter: blur(0px);
+    height: 80px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: height .2s ease , backdrop-filter 0.2s;
+}
+.navbar.menuShow {
+    height: 100vh;
+    position: fixed;
+    background-color: hsla(267, 73%, 51%, 0.15);
+    backdrop-filter: blur(30px);
+}
+
+.menuShow .navbar__overlay {
+    opacity: 1;
+    height: calc(100vh - 80px);
+    transition: height 0.5s, opacity 0.3s ease-in-out 0.2s;
+}
+
+.navbar__button{
+    height: 50px;
+    width: 50px;
+    background-color: #FDC400;
+    border-radius: 10px;
+    color: black;
+}
+.navbar__button svg {
+    pointer-events: none;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+.close {
+    transform: scale(0);
+    transition: transform 400ms;
+}
+.line {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform-origin: 50%;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+}
+.close .line {
+    stroke-width: 5.5px;
+}
+
+.navbar__button .close {
+    transition: transform 400ms;
+}
+.navbar__button .line {
+    transform-origin: 50%;
+    transition: transform 400ms 100ms;
+}
+.active.navbar__button .line {
+    transition: transform 400ms;
+}
+.active.navbar__button .line--one {
+    transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(.7);
+}
+.active.navbar__button .line--two {
+    transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(.7);
+}
+.active.navbar__button .line--three {
+    transform: translateY(0px) rotate(45deg) scale(.7);
+}
+.active.navbar__button .line--four {
+    transform: translateY(0px) rotate(-45deg) scale(.7);
+}
+.active.navbar__button .line--five {
+    transform: translateX(18px) translateY(3px) rotate(45deg) scale(.7);
+}
+.active.navbar__button .line--six {
+    transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(.7);
+}
+.active.navbar__button .close {
+    transition: transform 400ms 100ms;
+    transform: scale(1);
+}
