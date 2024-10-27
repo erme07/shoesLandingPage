@@ -76,4 +76,7 @@ document.addEventListener('click', (e) =>{
     }
 });
 
+screen.orientation.addEventListener("change", () => movePointer());
+window.addEventListener('resize', () => movePointer());
+
 movePointer()
