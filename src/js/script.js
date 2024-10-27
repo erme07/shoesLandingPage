@@ -39,6 +39,9 @@ const handleTransitionEnd2 = (e) => {
 
 const movePointer=()=>{
     let offsetpointer = $container_reviews.getBoundingClientRect().left;
+    if(new_costumer==undefined){
+        new_costumer = $costumers[0]
+    }
     let imgRect = new_costumer.children[0].getBoundingClientRect();
     let pointerRect = $pointer.getBoundingClientRect();
     let pos = imgRect.right - (imgRect.width/2) - (pointerRect.width/2) - offsetpointer
@@ -72,3 +75,5 @@ document.addEventListener('click', (e) =>{
         e.target.parentElement.parentElement.classList.toggle("acordeon-active")
     }
 });
+
+movePointer()
