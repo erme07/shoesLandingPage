@@ -38,15 +38,11 @@
         box-shadow: 0px 0px .1em .1em #7B29DD;
     }
     .radial-shadow-primary{
-        box-shadow: 0px 0px 60px 60px rgb(253, 196, 0,.15);
+        box-shadow: 0px 0px 60px 60px #fdc200;
     }
     .quote{
+        @apply -translate-y-1/2 absolute block top-0 left-[35px];
         content:url('../../assets/icons/quote.webp');
-        position:absolute;
-        display: block;
-        top: 0;
-        left: 35px;
-        transform: translateY(-50%);
     }
     .scrollbar{
         scrollbar-color:#FDC400 #fdc2001c;
